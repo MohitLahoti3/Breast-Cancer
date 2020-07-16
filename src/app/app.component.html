@@ -1,0 +1,49 @@
+<body>
+    <div class="row">
+        <div class="col-12" id="header">
+            <img src="assets\Images\header5.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-2 sidenav">
+            <a [routerLink]="['Overview']">Overview</a>
+            <a [routerLink]="['Risk-Factor']">Risk Factor</a>
+            <a [routerLink]="['Types']">Types</a>
+            <a [routerLink]="['Symptoms']">Symptoms</a>
+            <a [routerLink]="['Diagnosis']">Diagnosis</a>
+            <a [routerLink]="['Treatment']">Treatment</a>
+            <a [routerLink]="['Precautions']">Precautions</a>
+            <a [routerLink]="['Statistics']">Statistics</a>
+            <a [routerLink]="['FAQs']">FAQs</a>
+        </div>
+        <div class="col-10">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-12">
+            <div class="footerHeading">Hire Me</div>
+            <div class="footerContent">I am taking on new projects. Would you like to discuss yours?</div>
+            <div class="enquiryButton"><a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=GTvVlcSMVWFPkZqllJghxgQczGJSwpfkWGnnbnSbqRQRpLNLKHCLGlVQLcDCxNgnKrgcwnzrmvmpq" target="_blank"><button type="button" class="btn btn-outline-primary">Say Hello</button></a></div>
+        </div>
+    </div>
+    <div class="socialIcons row footer ">
+        <div class="col-1 offset-3 facebook">
+            <a href="https://www.facebook.com/mohit.lahoti.98/" target="_blank" data-toggle="tooltip " data-placement="bottom " title="facebook "><i
+                   class="fab fa-facebook-f socialIcon"></i></a></div>
+        <div class="col-1 twitter"><a href=" " data-toggle="tooltip " target="_blank" data-placement="bottom" title="twitter "><i
+                    class="fab fa-twitter socialIcon "></i></a></div>
+        <div class="col-1 linkedin"><a href=" " data-toggle="tooltip" target="_blank" data-placement="bottom" title="linkedin "><i
+                    class="fab fa-linkedin-in socialIcon"></i></a></div>
+        <div class="col-1 instagram"><a href="https://www.instagram.com/mohit_lahoti_/" target="_blank" data-toggle="tooltip " data-placement="bottom " title="instagram "><i
+                    class="fab fa-instagram socialIcon"></i></a></div>
+        <div class="col-1 github"><a href="https://github.com/MohitLahoti3" target="_blank" data-toggle="tooltip " data-placement="bottom " title="github "><i
+                    class="fab fa-github socialIcon"></i></a></div>
+        <div class="col-1 mail"><a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=GTvVlcSMVWFPkZqllJghxgQczGJSwpfkWGnnbnSbqRQRpLNLKHCLGlVQLcDCxNgnKrgcwnzrmvmpq " target="_blank" data-toggle="tooltip " data-placement="bottom " title="mail "><i
+                    class="far fa-envelope socialIcon"></i></a></div>
+    </div>
+    <div class="footer row">
+        <a href="#header" class="col-2 offset-5"><button type="button" class="btn btn-outline-primary ">Go To Top <i class="fas fa-arrow-up"></i></button></a>
+    </div>
+</body>

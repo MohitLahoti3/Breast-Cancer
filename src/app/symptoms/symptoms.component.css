@@ -1,0 +1,20 @@
+.symptoms {
+    margin: 10px 50px 100px 50px;
+}
+
+.heading {
+    margin: 20px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.symptomsContent {
+    font-size: 20px;
+    text-justify: auto;
+}
+
+img {
+    height: 700px;
+    width: 70%;
+    padding-top: 50px;
+}

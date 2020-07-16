@@ -1,0 +1,14 @@
+.bcdp {
+    margin: 10px 50px 100px 10px;
+}
+
+.heading {
+    margin: 20px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.bcdpContent {
+    font-size: 20px;
+    text-justify: auto;
+}

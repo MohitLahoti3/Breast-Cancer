@@ -1,0 +1,20 @@
+.other {
+    margin: 10px 50px 100px 10px;
+}
+
+.heading {
+    margin: 20px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.otherContent {
+    font-size: 20px;
+    text-justify: auto;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}

@@ -1,0 +1,63 @@
+.types {
+    margin: 10px 50px 100px 50px;
+}
+
+.heading {
+    margin: 20px 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.typesContent {
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.typesBox {
+    height: 180px;
+    width: 100%;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boxLeft {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+    padding-top: 60px;
+}
+
+.boxCenter {
+    float: left;
+    font-size: 20px;
+    padding: 25px 25px 15px 25px;
+}
+
+.boxRight {
+    float: left;
+    padding: 65px 0px 0px 30px;
+}
+
+.boxCenter a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.boxCenter a:hover {
+    color: crimson;
+}
+
+.boxRight a {
+    color: black;
+    font-size: 30px;
+    color: #dc3535;
+}
+
+.boxRight a:hover {
+    color: lightpink;
+}
